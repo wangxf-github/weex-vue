@@ -7,22 +7,31 @@ vue的移动开发平台weex
 brew install node
 
 //打包工具
+
 npm install -g weexpack
 
 //项目管理工具
+
 npm install -g weex-toolkit
 
 
 1.初始化项目
+
 git clone https://github.com/wangxf-github/weex-vue.git
 
 2.通过npm安装依赖包
+
 cd  weex-demo&npm install
 
 3.添加平台android or ios
+
 weex platform add android
 
+//添加pluginLibrary
+
 4.cd platform/android
+
 weexpack weexplugin platform android
+//打包运行
 
 5.weex run android
