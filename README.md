@@ -31,7 +31,10 @@ weex platform add android
 
 4.cd platform/android
 
-weexpack weexplugin platform android
+//指令简介自行查看weexpack的github源码
+https://github.com/weexteam/weex-pack/blob/master/bin/weexpack-weexplugin
+
+weexpack weexplugin create android
 //打包运行
 
 5.weex run android
